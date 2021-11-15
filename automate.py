@@ -96,7 +96,7 @@ while curr_row < num_rows:
         # Click on Course Tools
         time.sleep(3)
 # The course tools is clicked.         
-	courseTools = driver.find_element_by_class_name("navigation-s-group-text")
+	courseTools = driver.find_element_by_class_name("(LMS)-navigation-s-group-text")
         courseTools.click()
 
 # Here the hyperlink for Edit course is selected, then clicked. 
